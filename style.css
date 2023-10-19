@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  border-top: 1px solid #c4c4c4;
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 320px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  all: unset;
+  padding: 10px;
+  border: 2px solid #0071e3;
+  border-radius: 10px;
+  width: 100%;
+}
+
+form button {
+  all: unset;
+  padding: 10px;
+  background-color: #0071e3;
+  border: 2px solid #0071e3;
+  color: #fff;
+  border-radius: 10px;
+  width: 155px;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid #0071e3;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  user-select: none;
+}
+
+.item .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.item .top span {
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through 2px red;
+}
